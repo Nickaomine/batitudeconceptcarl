@@ -5,6 +5,16 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  font-family: "Raleway", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #7f7f7f;
+  background: #fff;
+  height: 100%;
+  position: relative;
+}
 .loader_bg {
   position: fixed;
   z-index: 9999999;
@@ -27,47 +37,17 @@
 .loader img {
   width: 280px;
 }
-body {
-  font-family: "Raleway", Arial, sans-serif;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.7;
-  color: #000000;
-  background: #fff;
-  height: 100%;
-  position: relative;
-}
-.bc{
-  color: blue;
-  font-weight: bold;
-}
-.slow{
-  color: gray;
-}
-.bcs{
-  color: rgb(0, 255, 234);
-}
-.bcse{
-  color: blue;
-}
-.cont{
-  margin-left: 100px;
-}
-.location{
-  color: white;
-}
-img{
-  width: 60px;
-  border-radius:  60px;
-  margin-top: -20px;
-}
 a {
-  color: blue;
-  font-weight: bold;
+  color: #27E1CE;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
+a:hover, a:active, a:focus {
+  color: #ffffff;
+  outline: none;
+}
+
 p {
   margin-bottom: 30px;
 }
@@ -120,13 +100,13 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .btn-primary {
-  background: #27E1CE;
+  background: #15635b;
   color: #fff;
-  border: 2px solid #27E1CE;
+  border: 2px solid #000000;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: #3de4d3 !important;
-  border-color: #3de4d3 !important;
+  background: #15635b !important;
+  border-color: #000000 !important;
 }
 .btn-primary.btn-outline {
   background: transparent;
@@ -278,7 +258,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
 }
 .fh5co-social li a {
   font-size: 22px;
@@ -289,7 +269,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
   -webkit-border-radius: 7px;
   -moz-border-radius: 7px;
   -ms-border-radius: 7px;
@@ -348,6 +328,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 #fh5co-header .header-inner {
   height: 80px;
+  padding-left: 20px;
+  padding-right: 20px;
   float: left;
   width: 100%;
   -webkit-border-radius: 7px;
@@ -410,7 +392,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
 }
 #fh5co-header nav ul li a {
   color: rgba(0, 0, 0, 0.7);
@@ -661,7 +643,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
 }
 .wrap-testimony .testimony-slide figure img {
   width: 120px;
@@ -773,11 +755,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-heading {
-  margin-bottom: 30px;
+  margin-bottom: 3px;
 }
 .fh5co-heading h2 {
-  margin-bottom: 20px;
-  font-weight: 700;
+  margin-bottom: 2px;
+  font-weight: bold;
 }
 
 .googleplus-color {
@@ -1078,7 +1060,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: -moz-inline-stack;
   display: inline-block;
   zoom: 1;
-  display: inline;
+  *display: inline;
   width: 30px;
   height: 2px;
   color: #fff;
@@ -1254,4 +1236,5 @@ h1, h2, h3, h4, h5, h6, figure {
 .js .animate-box {
   opacity: 0;
 }
-/*<!--Creer par Ingenieur Mekam Nicolas-->*/
+
+/*# sourceMappingURL=style.css.map */
